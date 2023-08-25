@@ -26,11 +26,11 @@ $(function(){
 
   /* 스와이퍼 */
   var swiper = new Swiper(".webSwiper", {
-    slidesPerView: 3.2,
+    slidesPerView: 3.3,
     spaceBetween: 20,
-    autoplay: {
-      delay: 3500,
-      disableOnInteraction: false,
-    },
+    //autoplay: {
+    //  delay: 3500,
+    //  disableOnInteraction: false,
+    //},
   });
 })

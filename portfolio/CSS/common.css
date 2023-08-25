@@ -60,12 +60,12 @@ h2{font-family: 'Krona One'; text-transform: uppercase; margin: 0; color: #0B143
 .mainVisual .cont2 .skimg img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 
 
-.mainVisual .cont3{height: 100vh; margin: 95rem 120rem 0 120rem; position: relative;}
+.mainVisual .cont3{ margin: 95rem 120rem 200rem 120rem; position: relative;}
 .mainVisual .cont3 h2{font-size: 60rem; line-height: 120%; margin-bottom: 33rem;}
 .mainVisual .cont3 > p{font-size: 18rem; margin-bottom: 90rem;}
 .mainVisual .cont3 .imgBox{display: flex;}
-.mainVisual .cont3 .imgBox .firstImg{width: 545rem; margin-right: 22rem;}
-.mainVisual .cont3 .imgBox .firstImg img{width: 100%; height: 100%; cursor: pointer;}
+.mainVisual .cont3 .imgBox .firstImg{width: 545rem; max-width: 545px; margin-right: 22rem; border:  1px solid #D1D1D1;}
+.mainVisual .cont3 .imgBox .firstImg img{width: 100%; height: 100%; cursor: pointer; object-fit: contain;}
 .mainVisual .cont3 .imgBox .imglist{display: flex; flex-wrap: wrap; width: 67%;}
 .mainVisual .cont3 .imgBox .imglist > li{width: 262rem; margin-right: 22rem; margin-bottom: 22rem; cursor: pointer;}
 .mainVisual .cont3 .imgBox .imglist > li:nth-child(4),
