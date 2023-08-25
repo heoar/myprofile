@@ -1,0 +1,101 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Outfit:wght@100;200;300;400;500;600&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* 기본 */
+html{margin: 0; padding: 0; height: 100%; overflow-y: auto; font-size: 0.05208333178113vw;}
+html::-webkit-scrollbar{display: none;}
+body{position: relative; font-family: 'Noto Sans KR'; font-weight: 500; overflow: hidden; margin: 0 !important; min-width: 320px; color: #000; line-height: 1.45; font-size: 16rem;}
+ol, ul {list-style: none; margin: 0; padding: 0;}
+a { color: inherit; text-decoration: none; cursor: pointer;}
+
+@media screen and ( max-width:767px ){
+  html { font-size: 1px;}
+  body { font-size: 16px;}
+}
+
+/* 메인 */
+#wrap{}
+h2{font-family: 'Krona One'; text-transform: uppercase; margin: 0; color: #0B1434;}
+
+.mainVisual{width: 100%;}
+
+.mainVisual .cont1{width: 100%; height: 100vh; background: #0B1434; color: white; position: relative;}
+.mainVisual .cont1 .txtBox{position: absolute; top: 270rem; left: 120rem;}
+.mainVisual .cont1 .txtBox p{margin: 0; font-size: 90rem; font-family: 'Krona One'; font-weight: 400; line-height: 94%;}
+.mainVisual .cont1 .txtBox p em{font-style: normal; color: #26F9FF;}
+.mainVisual .cont1 .txtBox .subtxt{text-transform: uppercase; font-weight: 300; margin-top: 65rem;}
+.mainVisual .cont1 .imgarea{position: absolute; max-width: 717px; max-height: 717px; width: 717rem; height: 717rem; top: 50%; right: 120rem; transform: translateY(-50%);}
+.mainVisual .cont1 .imgarea img{width: 100%; height: 100%;}
+.mainVisual .cont1 .objtBox{}
+.mainVisual .cont1 .objtBox .obj1{border: 1px solid #ffffff26; max-width: 1038px; max-height: 1038px; width: 1038rem; height: 1038rem; border-radius: 50%; position: absolute; top: -10%; left: -5%; animation: rotate linear 18s infinite;}
+@keyframes rotate{
+  0%{transform: rotate( 0deg );}
+  100%{transform: rotate( 360deg );}
+}
+.mainVisual .cont1 .objtBox .obj1::after{content: ''; width: 20rem; height: 20rem; background: #26F9FF; border-radius: 50%; position: absolute; right: -10rem; bottom: 50%;}
+.mainVisual .cont1 .objtBox .obj1::before{content: ''; width: 30rem; height: 30rem; background: #FFC700; border-radius: 50%; position: absolute; left: 80%; bottom: 10%;}
+.mainVisual .cont1 .objtBox .obj2{border: 1px solid #ffffff0f; width: 521rem; height: 521rem; border-radius: 50%; position: absolute; left: 30%; bottom: -5%;}
+
+
+.mainVisual .cont2{width: 100%; height: 100vh; position: relative;}
+.mainVisual .cont2 .onebg{position: absolute; left: -50vh; width: 100vh; height: 100vh; background: #0B1434; border-radius: 50%;}
+
+.mainVisual .cont2 .abouts{position: absolute; left: 120rem; top: 50%; transform: translateY(-50%);}
+.mainVisual .cont2 .abouts img{width: 541rem; height: 541rem; max-width: 541px; max-height: 541px;}
+.mainVisual .cont2 .txtBox{position: absolute; width: 100%; top: 50%; left: 105%; transform: translateY(-50%);}
+.mainVisual .cont2 .txtBox h2{font-size: 40rem; font-weight: 500; color: #0B1434; position: absolute; top: -245rem; left: -90rem;}
+.mainVisual .cont2 .txtBox h2::after{content: ''; position: absolute; width: 10rem; height: 10rem; background: #FFC700; border-radius: 50%; top: 0; right: -15rem;}
+.mainVisual .cont2 .txtBox .subtxt{position: absolute; left: -40rem; bottom: -260rem;}
+.mainVisual .cont2 .txtBox .subtxt p{font-size: 20rem;}
+.mainVisual .cont2 .txtBox .subtxt p:nth-child(1){font-weight: bold;}
+.mainVisual .cont2 .txtBox .subtxt p em{font-style: normal; color: #FFC700;}
+
+.mainVisual .cont2 .greeting{position: absolute; left: 50%; top: 5%;}
+.mainVisual .cont2 .greeting img{width: 395rem; height: 395rem; max-width: 395px; max-height: 395px;}
+.mainVisual .cont2 .greeting p{position: absolute; top: 15rem; right: -90%; width: 100%;}
+
+.mainVisual .cont2 .skimg{position: absolute; right: 90rem; top: 40%; width: 578rem; height: 578rem; max-width: 578px; max-height: 578px;}
+.mainVisual .cont2 .skimg img{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+
+.mainVisual .cont3{height: 100vh; margin: 95rem 120rem 0 120rem; position: relative;}
+.mainVisual .cont3 h2{font-size: 60rem; line-height: 120%; margin-bottom: 33rem;}
+.mainVisual .cont3 > p{font-size: 18rem; margin-bottom: 90rem;}
+.mainVisual .cont3 .imgBox{display: flex;}
+.mainVisual .cont3 .imgBox .firstImg{width: 545rem; margin-right: 22rem;}
+.mainVisual .cont3 .imgBox .firstImg img{width: 100%; height: 100%; cursor: pointer;}
+.mainVisual .cont3 .imgBox .imglist{display: flex; flex-wrap: wrap; width: 67%;}
+.mainVisual .cont3 .imgBox .imglist > li{width: 262rem; margin-right: 22rem; margin-bottom: 22rem; cursor: pointer;}
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(4),
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(8){margin-right: 0;}
+
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(5),
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(6),
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(7),
+.mainVisual .cont3 .imgBox .imglist > li:nth-child(8){margin-bottom: 0;}
+.mainVisual .cont3 .imgBox .imglist > li img{width: 100%; height: 100%;}
+
+.mainVisual .cont3 .bgone{position: absolute; top: 55%; right: -120rem; z-index: -1; width: 1069rem;}
+
+
+/* 디자인 팝업 */
+.popWrap{position: absolute;width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .5); position: fixed; z-index: 99; display: none;}
+.popWrap.on{display: block;}
+.popWrap .popArea{position: absolute; top: 50%; left: 50%; overflow-y: scroll; transform: translate(-50%,-50%); width: 80%; height: 80vh; background: #fff; display: none;}
+.popWrap .popArea.on{display: block;}
+.popWrap .popArea.dsPop_1{}
+.popWrap .popArea > img{width: 80%; display: block; margin: 60rem auto;}
+
+
+.mainVisual .cont4{margin: 0 120rem 100rem;}
+.mainVisual .cont4 h2{font-size: 60rem; line-height: 120%; margin-bottom: 33rem;}
+.mainVisual .cont4 > p{font-size: 18rem; margin-bottom: 90rem;}
+
+.mainVisual .cont4 .swiperArea{overflow: hidden;}
+.mainVisual .cont4 .webSwiper .swiper-slide{position: relative; text-align: center; font-size: 18px; background: #000; width: 465rem; height: 604rem; border: 1px solid #D1D1D1; overflow: hidden;}
+.mainVisual .cont4 .webSwiper .swiper-slide a{opacity: 0; transition: opacity 1; color: #fff; background: #00000054; position: absolute; left: 50%; top: 50%; z-index: 2; font-weight: 300; font-family: 'Montserrat'; border: 1px solid #fff; border-radius: 30rem; padding: 10rem 20rem; transform: translate(-50%,-50%); cursor: pointer; font-size: 16rem;}
+.mainVisual .cont4 .webSwiper .swiper-slide img{display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; transition: 0.8s;}
+.mainVisual .cont4 .webSwiper .swiper-slide:hover img{filter: blur(2px); -webkit-filter: blur(2px); opacity: 0.8;}
+.mainVisual .cont4 .webSwiper .swiper-slide:hover a{opacity: 1; transition: opacity 1;}
